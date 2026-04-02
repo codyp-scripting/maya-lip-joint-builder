@@ -36,8 +36,11 @@ control = joint name + _ctrl
 root joint = joint name + _root
 
 More INSIGHT (How it works):
+
 basename = ctrl.replace("_ctrl", "")
+
 root = basename + "_root"
+
 tip = basename
 
 ## Selection Rules
@@ -55,6 +58,7 @@ Selection order is important because neighbor influence is determined from adjac
 ## Launching the Tool
 
 Run the script which builds lipToolUI()
+
 Run lipToolUI()
 
 -This opens the UI used by the shelf tool.
